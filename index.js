@@ -26,7 +26,7 @@ app.get("/",(req,res)=>{
 })
 
 app.get("/hello",(req,res)=>{
-    res.send({"hello":"hello from route"})
+    res.send({"hello":"hello from route edite"})
 })
 
 module.exports = app
